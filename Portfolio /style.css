@@ -1,0 +1,29 @@
+:root {
+    --parimary:#3dcfd3;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-somtthing: antialiased;
+
+}
+header {
+    background: var(--dark);
+}  
+
+.Left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1152px;
+    padding:0 15px;
+    margin: 0 auto;
+}
